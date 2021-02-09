@@ -14,6 +14,7 @@
 		AC95523725D34885001437F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC95523525D34885001437F4 /* Main.storyboard */; };
 		AC95524325D34886001437F4 /* CACommitCycleStatusItemExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95524225D34886001437F4 /* CACommitCycleStatusItemExampleTests.swift */; };
 		AC95524E25D34886001437F4 /* CACommitCycleStatusItemExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95524D25D34886001437F4 /* CACommitCycleStatusItemExampleUITests.swift */; };
+		AC95525F25D348F6001437F4 /* StatusItemViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95525E25D348F6001437F4 /* StatusItemViewable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AC95524925D34886001437F4 /* CACommitCycleStatusItemExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CACommitCycleStatusItemExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC95524D25D34886001437F4 /* CACommitCycleStatusItemExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACommitCycleStatusItemExampleUITests.swift; sourceTree = "<group>"; };
 		AC95524F25D34886001437F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC95525E25D348F6001437F4 /* StatusItemViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemViewable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				AC95522C25D34882001437F4 /* AppDelegate.swift */,
 				AC95522E25D34882001437F4 /* ContentView.swift */,
+				AC95525E25D348F6001437F4 /* StatusItemViewable.swift */,
 				AC95523025D34885001437F4 /* Assets.xcassets */,
 				AC95523525D34885001437F4 /* Main.storyboard */,
 				AC95523825D34885001437F4 /* Info.plist */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC95522F25D34882001437F4 /* ContentView.swift in Sources */,
+				AC95525F25D348F6001437F4 /* StatusItemViewable.swift in Sources */,
 				AC95522D25D34882001437F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
